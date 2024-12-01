@@ -6,7 +6,7 @@ export default function Rodape(props: any) {
             px-10
             text-xl
             rounded-lg
-            h-12
+            h-16
             bg-cyan-600
         `}>
 

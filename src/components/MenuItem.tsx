@@ -8,6 +8,7 @@ export default function MenuItem(props: any) {
                 px-4 py-2
                 bg-zinc-900
                 text-xl
+                text-white
                 w-full
                 rounded-md
         `}>

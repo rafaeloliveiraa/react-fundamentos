@@ -10,7 +10,6 @@ export default function Menu() {
             rounded-lg
             text-3xl
             w-52
-            
             p-2
             gap-2
         

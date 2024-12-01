@@ -4,7 +4,7 @@ export default function Cabecalho(props: any) {
             flex flex-col 
             justify-center 
             items-center
-            h-16
+            h-24
             bg-purple-500
             rounded-lg
         `}>
