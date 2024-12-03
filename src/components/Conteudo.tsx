@@ -1,4 +1,7 @@
-export default function Conteudo(props: any) {
+interface ConteudoProps {
+    children: any
+}
+export default function Conteudo(props: ConteudoProps) {
     console.log(props)
     return (
         <div className={`
@@ -6,8 +9,7 @@ export default function Conteudo(props: any) {
             items-start
             flex-1
             text-3xl
-            rounded-lg
-            bg-emerald-500
+            bg-zinc-900
             p-4
         `}>
             {props.children}

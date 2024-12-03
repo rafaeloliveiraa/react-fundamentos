@@ -1,17 +1,18 @@
+import AreaLateral from "./AreaLateral"
 import Cabecalho from "./Cabecalho"
 import Conteudo from "./Conteudo"
-import Menu from "./Menu"
 import Rodape from "./Rodape"
 
 export default function Pagina(props: any) {
     const ano = new Date().getFullYear()
     return (
-        <div className="flex gap-4 p-4 h-screen">
-            <Menu/>
-            <div className="flex flex-col flex-1 gap-4">
+        <div className="flex h-screen text-white">
+            <AreaLateral />
+            <div className="flex flex-col flex-1">
                 <Cabecalho 
                 titulo={props.titulo}
                 subtitulo={props.subtitulo}
+                className="h-16 bg-zinc-800"
                 />
                 <Conteudo>
                     {props.children}
