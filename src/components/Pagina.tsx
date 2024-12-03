@@ -3,7 +3,13 @@ import Cabecalho from "./Cabecalho"
 import Conteudo from "./Conteudo"
 import Rodape from "./Rodape"
 
-export default function Pagina(props: any) {
+interface PaginaProps {
+    titulo: string
+    subtitulo: string
+    children: string
+}
+
+export default function Pagina(props: PaginaProps) {
     const ano = new Date().getFullYear()
     return (
         <div className="flex h-screen text-white">

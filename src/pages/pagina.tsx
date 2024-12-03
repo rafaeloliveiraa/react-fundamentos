@@ -13,6 +13,7 @@ export default function TestePagina() {
             className='bg-blue-500 p-2 rounded-md'>
                 Teste
             </button>
+            
         </Pagina>
     )
 }
