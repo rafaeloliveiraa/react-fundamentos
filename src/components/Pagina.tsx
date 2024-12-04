@@ -6,7 +6,7 @@ import Rodape from "./Rodape"
 interface PaginaProps {
     titulo: string
     subtitulo: string
-    children: string
+    children: any
 }
 
 export default function Pagina(props: PaginaProps) {
