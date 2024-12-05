@@ -1,5 +1,4 @@
 import { useState } from 'react';
-import '../../app/globals.css'
 import Pagina from "@/components/Pagina";
 import { IconMinus, IconPlus } from '@tabler/icons-react';
 

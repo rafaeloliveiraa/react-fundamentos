@@ -1,5 +1,4 @@
 import Pagina from '@/components/Pagina'
-import '../../app/globals.css'
 import { useState } from 'react'
 
 export default function PaginaComEstado() {

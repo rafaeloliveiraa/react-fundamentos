@@ -12,7 +12,7 @@ interface PaginaProps {
 export default function Pagina(props: PaginaProps) {
     const ano = new Date().getFullYear()
     return (
-        <div className="flex h-screen text-white">
+        <div className="flex h-screen">
             <AreaLateral />
             <div className="flex flex-col flex-1">
                 <Cabecalho 
