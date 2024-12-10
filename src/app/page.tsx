@@ -1,5 +1,5 @@
-import Pagina from "@/components/Pagina";
-import { IconBrandReact } from "@tabler/icons-react";
+import Pagina from "@/components/Pagina"
+import { IconBrandReact } from "@tabler/icons-react"
 
 
 export default function Home() {
@@ -15,5 +15,5 @@ export default function Home() {
       </div>
 
     </Pagina>
-  );
+  )
 }

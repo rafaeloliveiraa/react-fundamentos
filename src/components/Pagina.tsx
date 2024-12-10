@@ -10,7 +10,6 @@ interface PaginaProps {
 }
 
 export default function Pagina(props: PaginaProps) {
-    const ano = new Date().getFullYear()
     return (
         <div className="flex h-screen">
             <AreaLateral />
@@ -25,7 +24,7 @@ export default function Pagina(props: PaginaProps) {
                 </Conteudo>
                 <Rodape
                 textoEsquerda="Feito com ❤️ por Rafael"
-                textoDireita={`Desenvolvido em ${ano}`}
+                textoDireita={`Desenvolvido em ${new Date().getFullYear()}`}
                 />
             </div>
 
