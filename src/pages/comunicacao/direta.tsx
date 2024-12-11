@@ -3,7 +3,7 @@ import Pagina from "@/components/Pagina";
 
 export default function PaginaDireta() {
     return (
-        <Pagina titulo="Comunicação Direta" subtitulo="Comunicação Direta">
+        <Pagina titulo="Comunicação Direta" subtitulo="Capítulo Comunicação">
             <Botoes />
         </Pagina>
     )
